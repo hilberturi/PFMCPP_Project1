@@ -52,86 +52,96 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: dog
+//  action 1: the dog barks
+dog.bark();
+//  action 2: the dog eats some food
+dog.eat();
+//  action 3: the dog sleeps 
+dog.sleep();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: flashLight (i.e. pocket light)
+//  action 1: emit steady light
+emitContintuousLight();
+//  action 2: emit pulsating light
+blink();
+//  action 3: recharge from power supply
+recharge();
 
 //  3)
+//  Noun: television
+//  action 1: show selected programm
+showProgram();
+//  action 2: switch to a different program
+switchProgram();
+//  action 3: show on-screen menu
+showMenu();
+
+//  4) 
+//  Noun: horse
+//  action 1: the horse walks
+walk();
+//  action 2: the horse trots
+trot();
+//  action 3: the horse gallops
+gallop();
+
+//  5) swimmer (i.e. swimming athlete)
 //  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  action 1: the swimmer swims
+swim();
+//  action 2: the swimmer turns at the end of the lane
+turn();
+//  action 3: the swimmer finishes at the end of the lane
+finish();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: submarine
+//  action 1: the submarine emerges from the water
+emerge();
+//  action 2: the submarine submerges into the water
+submerge();
+//  action 3: the submarine raises its periscope
+raiseTelescope();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: balloon (i.e. a hot-air balloon)
+//  action 1: the open blast valve of the balloon's burner unit
+openBlastValveOfBurner();
+//  action 2: heat up the air by burning gas
+heatAirByBurningGas();
+//  action 3: the balloon releases hot air through its vent
+releaseHotAirThroughVent();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: microwaveOven
+//  action 1: start heating 
+startHeating();
+//  action 2: cancel heating
+cancelHeating();
+//  action 3: release the door lock
+releaseDoor();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: digitalThermometer (i.e. thermometer for measuring room temperature)
+//  action 1: toggle scale for displaying temperature (Fahrenheit/Celsius scale)
+//  I am using 'toggle' rather than 'set' because there are no parameters yet.
+toggleScale();
+//  action 2: the thermometer clears its long-term aggregated values
+clearAggregatedValues();
+//  action 3: show 24 hour aggregated values or all-time aggregated values
+// Again, I use a toggle since there are no parameters yet.
+toggleAggregationStyle();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: turntable (i.e. record player)
+//  action 1: the turntable makes its disk rotate
+rotate();
+//  action 2: the turntable lifts its arm
+liftArm();
+//  action 3: the turntable lowers its arm 
+lowerArm();
 
 #endif
 
