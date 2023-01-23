@@ -63,85 +63,85 @@ dog.sleep();
 //  2)
 //  Noun: flashLight (i.e. pocket light)
 //  action 1: emit steady light
-emitContintuousLight();
+flashLight.emitContintuousLight();
 //  action 2: emit pulsating light
-blink();
+flashLight.blink();
 //  action 3: recharge from power supply
-recharge();
+flashLight.recharge();
 
 //  3)
 //  Noun: television
 //  action 1: show selected programm
-showProgram();
+television.showProgram();
 //  action 2: switch to a different program
-switchProgram();
+television.switchProgram();
 //  action 3: show on-screen menu
-showMenu();
+television.showMenu();
 
 //  4) 
 //  Noun: horse
 //  action 1: the horse walks
-walk();
+horse.walk();
 //  action 2: the horse trots
-trot();
+horse.trot();
 //  action 3: the horse gallops
-gallop();
+horse.gallop();
 
 //  5) swimmer (i.e. swimming athlete)
 //  Noun:
 //  action 1: the swimmer swims
-swim();
+swimmer.swim();
 //  action 2: the swimmer turns at the end of the lane
-turn();
+swimmer.turn();
 //  action 3: the swimmer finishes at the end of the lane
-finish();
+swimmer.finish();
 
 //  6)
 //  Noun: submarine
 //  action 1: the submarine emerges from the water
-emerge();
+submarine.emerge();
 //  action 2: the submarine submerges into the water
-submerge();
+submarine.submerge();
 //  action 3: the submarine raises its periscope
-raiseTelescope();
+submarine.raiseTelescope();
 
 //  7)
 //  Noun: balloon (i.e. a hot-air balloon)
 //  action 1: the open blast valve of the balloon's burner unit
-openBlastValveOfBurner();
+balloon.openBlastValveOfBurner();
 //  action 2: heat up the air by burning gas
-heatAirByBurningGas();
+balloon.heatAirByBurningGas();
 //  action 3: the balloon releases hot air through its vent
-releaseHotAirThroughVent();
+balloon.releaseHotAirThroughVent();
 
 //  8)
 //  Noun: microwaveOven
 //  action 1: start heating 
-startHeating();
+microwaveOven.startHeating();
 //  action 2: cancel heating
-cancelHeating();
+microwaveOven.cancelHeating();
 //  action 3: release the door lock
-releaseDoor();
+microwaveOven.releaseDoor();
 
 //  9)
 //  Noun: digitalThermometer (i.e. thermometer for measuring room temperature)
 //  action 1: toggle scale for displaying temperature (Fahrenheit/Celsius scale)
 //  I am using 'toggle' rather than 'set' because there are no parameters yet.
-toggleScale();
+digitalThermometer.toggleScale();
 //  action 2: the thermometer clears its long-term aggregated values
-clearAggregatedValues();
+digitalThermometer.clearAggregatedValues();
 //  action 3: show 24 hour aggregated values or all-time aggregated values
 // Again, I use a toggle since there are no parameters yet.
-toggleAggregationStyle();
+digitalThermometer.toggleAggregationStyle();
 
 //  10)
 //  Noun: turntable (i.e. record player)
 //  action 1: the turntable makes its disk rotate
-rotate();
+turntable.rotate();
 //  action 2: the turntable lifts its arm
-liftArm();
+turntable.liftArm();
 //  action 3: the turntable lowers its arm 
-lowerArm();
+turntable.lowerArm();
 
 #endif
 
