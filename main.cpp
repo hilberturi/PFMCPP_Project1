@@ -52,86 +52,96 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: dog
+//  action 1: the dog barks
+dog.bark();
+//  action 2: the dog eats some food
+dog.eat();
+//  action 3: the dog sleeps 
+dog.sleep();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: flashLight (i.e. pocket light)
+//  action 1: emit steady light
+flashLight.emitContintuousLight();
+//  action 2: emit pulsating light
+flashLight.blink();
+//  action 3: recharge from power supply
+flashLight.recharge();
 
 //  3)
+//  Noun: television
+//  action 1: show selected programm
+television.showProgram();
+//  action 2: switch to a different program
+television.switchProgram();
+//  action 3: show on-screen menu
+television.showMenu();
+
+//  4) 
+//  Noun: horse
+//  action 1: the horse walks
+horse.walk();
+//  action 2: the horse trots
+horse.trot();
+//  action 3: the horse gallops
+horse.gallop();
+
+//  5) swimmer (i.e. swimming athlete)
 //  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  action 1: the swimmer swims
+swimmer.swim();
+//  action 2: the swimmer turns at the end of the lane
+swimmer.turn();
+//  action 3: the swimmer finishes at the end of the lane
+swimmer.finish();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: submarine
+//  action 1: the submarine emerges from the water
+submarine.emerge();
+//  action 2: the submarine submerges into the water
+submarine.submerge();
+//  action 3: the submarine raises its periscope
+submarine.raiseTelescope();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: Circus Clown
+//  action 1: the clown tells a joke
+circusClown.tellJoke();
+//  action 2: the clown stumbles over his own feet
+circusClown.stumbleOverOwnFeet();
+//  action 3: the clow squirts water from a plastic flower
+circusClown.squirtWaterFromPlasticFlower();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: microwaveOven
+//  action 1: start heating 
+microwaveOven.startHeating();
+//  action 2: cancel heating
+microwaveOven.cancelHeating();
+//  action 3: release the door lock
+microwaveOven.releaseDoor();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: digitalThermometer (i.e. thermometer for measuring room temperature)
+//  action 1: toggle scale for displaying temperature (Fahrenheit/Celsius scale)
+//  I am using 'toggle' rather than 'set' because there are no parameters yet.
+digitalThermometer.toggleScale();
+//  action 2: the thermometer clears its long-term aggregated values
+digitalThermometer.clearAggregatedValues();
+//  action 3: show 24 hour aggregated values or all-time aggregated values
+// Again, I use a toggle since there are no parameters yet.
+digitalThermometer.toggleAggregationStyle();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: turntable (i.e. record player)
+//  action 1: the turntable makes its disk rotate
+turntable.rotate();
+//  action 2: the turntable lifts its arm
+turntable.liftArm();
+//  action 3: the turntable lowers its arm 
+turntable.lowerArm();
 
 #endif
 
