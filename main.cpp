@@ -106,13 +106,13 @@ submarine.submerge();
 submarine.raiseTelescope();
 
 //  7)
-//  Noun: balloon (i.e. a hot-air balloon)
-//  action 1: the open blast valve of the balloon's burner unit
-balloon.openBlastValveOfBurner();
-//  action 2: heat up the air by burning gas
-balloon.heatAirByBurningGas();
-//  action 3: the balloon releases hot air through its vent
-balloon.releaseHotAirThroughVent();
+//  Noun: Circus Clown
+//  action 1: the clown tells a joke
+circusClown.tellJoke();
+//  action 2: the clown stumbles over his own feet
+circusClown.stumbleOverOwnFeet();
+//  action 3: the clow squirts water from a plastic flower
+circusClown.squirtWaterFromPlasticFlower();
 
 //  8)
 //  Noun: microwaveOven
